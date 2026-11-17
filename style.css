@@ -1,0 +1,65 @@
+/* 1. Element Selectors */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e2e8f0; /* Light grayish-blue background */
+    color: #1a202c;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #2b6cb0; /* Theme color: Blue */
+    border-bottom: 2px solid #2b6cb0;
+    padding-bottom: 5px;
+}
+
+/* 2. ID Selectors */
+#nav-bar {
+    background-color: #2d3748; /* Dark gray/blue for nav */
+    padding: 15px;
+    text-align: center; /* Aligning text to center */
+}
+
+#top-header {
+    background-color: #2b6cb0; /* Main theme color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* 3. Class Selectors */
+.nav-link {
+    /* Changing display property so the list goes horizontal */
+    display: inline-block; 
+    margin: 0 15px;
+}
+
+.nav-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-info {
+    color: #ebf8ff;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.main-container {
+    width: 80%;
+    margin: 20px auto; /* Positioning: Centers the div on the page */
+}
+
+.resume-block {
+    background-color: #ffffff; /* White boxes for content */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Slight curve to the corners */
+}
